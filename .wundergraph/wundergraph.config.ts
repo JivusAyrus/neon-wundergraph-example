@@ -4,7 +4,7 @@ import operations from './wundergraph.operations';
 
 const db = introspect.postgresql({
 	apiNamespace: 'db',
-	databaseURL: new EnvironmentVariable('DATABASE_URL'),
+	databaseURL: new EnvironmentVariable('NEON_DATABASE_URL'),
 });
 
 // configureWunderGraph emits the configuration
