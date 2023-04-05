@@ -1,4 +1,4 @@
-# WunderGraph example with PostgreSQL
+# WunderGraph example with PostgreSQL 
 
 WunderGraph is not just able to manage existing APIs, like REST and GraphQL,
 but can also act as an ORM replacement.
