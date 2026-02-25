@@ -46,6 +46,7 @@ type Details {
   nationality: Nationality!
   pets: [Pet]
   surname: String! @shareable
+  somethingNew: String
 }
 
 type Dog implements Animal & Pet {
